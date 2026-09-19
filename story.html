@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>For You ❤️</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="birthday-page">
+
+        <div class="birthday-content">
+
+            <p class="chapter">A LITTLE SOMETHING FOR YOU</p>
+
+            <h1>Happy Birthday, Huzaifa ❤️</h1>
+
+            <div class="story-line"></div>
+
+            <p>
+                Today is all about you.
+            </p>
+
+            <p>
+                Your smile, your dreams, your achievements,
+                and the person you are becoming.
+            </p>
+
+            <p>
+                I wanted to give you something that wasn't
+                just a birthday wish...
+            </p>
+
+            <p class="highlight">
+                I wanted to give you a little piece of my heart. ❤️
+            </p>
+
+
+            <div class="wish-section">
+
+                <button onclick="makeWish()">
+                    Make a Wish 🎂
+                </button>
+
+                <p id="wishMessage">
+                    ✨ My wish for you…<br><br>
+                    May this year bring us closer to the day
+                    when we don't have to miss each other anymore.<br><br>
+                    And may the wish we both quietly make every day…
+                    finally come true. 🤍
+                </p>
+
+            </div>
+
+
+            <button onclick="goToNextPage()">
+                Continue Your Surprise →
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <script>
+
+        function makeWish() {
+
+            const wish = document.getElementById("wishMessage");
+
+            wish.style.display = "block";
+
+        }
+
+
+       function goToNextPage() {
+
+    window.location.href = "about.html";
+
+}
+
+    </script>
+
+</body>
+
+</html>
